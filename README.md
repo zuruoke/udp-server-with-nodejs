@@ -10,17 +10,17 @@ An Open Source project that utilizes a Layer 4 Transport Protocol to build a Ser
 
 - First of all, clone this repo
 
-  !git clone https://github.com/zuruoke/udp-server-with-nodejs
+      git clone https://github.com/zuruoke/udp-server-with-nodejs
 
 ### Server
 
 - Download the dependencies
 
-  npm install
+      npm install
 
 - Start the Server, _use localhost as 127.0.0.1 and chose a port to where your server will listen at_
 
-  npm start [port] [localhost]
+      npm start [port] [localhost]
 
 ### Client
 
@@ -30,16 +30,17 @@ Here we will use it as our UDP client
 
 - Open your bash or shell terminal and enter this command to connect to the remote server
 
-  nc -u 127.0.0.1 [port]
+      nc -u 127.0.0.1 [port]
+
   where the -u signify that the transport protocol to be used is udp, and the localhost address and port points to the server running
 
 - Send a message to the client
 
   after connecting to the server, an input session is activated, so you can type any message and press enter to send
 
-  [your home directory] ~ % nc -u 127.0.0.1 5500
-  this is my first message
-  this is my second message
+      [your home directory] ~ % nc -u 127.0.0.1 5500
+      this is my first message
+      this is my second message
 
 And you're all Set!! The running server gets this message and print to the console
 
