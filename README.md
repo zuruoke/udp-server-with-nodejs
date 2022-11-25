@@ -24,7 +24,7 @@ An Open Source project that utilizes a Layer 4 Transport Protocol to build a Ser
 
 ### Client
 
-If you are a UNIX-based or a Windows-based system, you should have a computer networking utility tool #Netcat, which can be used to establish network connection at the layer 4 level (Transport Layer).
+If you are using a UNIX-based or a Windows-based system, you should have a computer networking utility tool **Netcat**, which can be used to establish network connection at the layer 4 level (Transport Layer).
 
 Here we will use it as our UDP client
 
